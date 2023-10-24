@@ -12,33 +12,28 @@ body {
   margin: auto;
   padding: 0;
   display: flex;
-  flex-direction: collum;
+  flex-direction: column;
   width: 1160px;
 }
 
 /*--settings container--*/
 .container {
-  width: 1160px; /*height:50px;*/
   margin: 0px auto;
   background-color: #782221;
   display: flex;
+  flex-direction: column;
 }
 
 /*--HEADER--*/
-.photo-profil {
+header {
   color: white;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
   text-align: center;
-  background-color: #782221;
-  display: flex;
-  flex-direction: collum;
-  align-item: center;
 }
 
-.img.arrondi:hover {
-  cursor: zoom-in;
-}
-
-.img.arrondi {
+#photo {
   display: flex;
   margin-top: 15px;
   width: 150px;
@@ -46,6 +41,11 @@ body {
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 0 10px white;
+  margin: 0px auto 10px auto;
+}
+
+#photo:hover {
+  cursor: zomm-in;
 }
 
 /*--Texte--*/
@@ -121,7 +121,6 @@ a {
   padding-top: 15px;
   padding-left: 15px;
   display: flex;
-  flex-direction: column;
   background-color: #782221;
 }
 
