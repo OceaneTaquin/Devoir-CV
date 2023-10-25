@@ -187,6 +187,8 @@ a {
 .experience3:hover {
   border-left-style: solid;
   border-left-color: #782221;
+  border-right-style: solid;
+  border-right-color: #2c1d27;
 }
 
 /*--Autre--*/
