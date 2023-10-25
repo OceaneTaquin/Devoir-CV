@@ -155,6 +155,40 @@ a {
   border-color: #2c1d27;
 }
 
+.experience {
+  color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-bottom: 15px;
+  background-color: #dbc2a4;
+}
+
+.experience2 {
+  color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-bottom: 15px;
+  background-color: #dbc2a4;
+}
+
+.experience3 {
+  color: black;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  margin-bottom: 15px;
+  background-color: #dbc2a4;
+}
+
+.experience:hover,
+.experience2:hover,
+.experience3:hover {
+  border-left-style: solid;
+  border-left-color: #782221;
+}
+
 /*--Autre--*/
 .bottom__logo {
   height: 50px;
